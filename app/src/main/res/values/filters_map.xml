@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="filterNames">
+        <item>Android</item>
+        <item>Linux</item>
+        <item>Ubuntu</item>
+    </array>
+    <array name="filterImages">
+        <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
+        <item>@drawable/abc_btn_default_mtrl_shape</item>
+        <item>@drawable/abc_btn_switch_to_on_mtrl_00001</item>
+    </array>
+</resources>
