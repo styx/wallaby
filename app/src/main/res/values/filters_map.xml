@@ -10,4 +10,16 @@
         <item>@drawable/abc_btn_default_mtrl_shape</item>
         <item>@drawable/abc_btn_switch_to_on_mtrl_00001</item>
     </array>
+
+    <array name="flagNames">
+        <item>Австралия</item>
+    </array>
+
+    <array name="flagImages">
+        <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
+    </array>
+
+    <integer-array name="flag_p0">
+        <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
+    </integer-array>
 </resources>

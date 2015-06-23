@@ -12,7 +12,9 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -20,9 +22,10 @@ import java.util.ArrayList;
  */
 public class MainActivityFragment extends Fragment {
 
-    private ListView mFilterList;
     private ArrayList<FilterItem> filterItems = new ArrayList<>();
-    private FilterArrayAdapter adapter;
+    private ArrayList<FlagItem> flagItems = new ArrayList<>();
+    private FilterArrayAdapter filterAdapter;
+    private FlagAdapter flagsAdapter;
 
     public MainActivityFragment() {
     }
@@ -32,11 +35,11 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
 
-        loadFilterItems();
+        loadResources();
 
-        mFilterList = (ListView) view.findViewById(R.id.filterList);
-        adapter = new FilterArrayAdapter(getActivity(), filterItems);
-        mFilterList.setAdapter(adapter);
+        ListView mFilterList = (ListView) view.findViewById(R.id.filterList);
+        filterAdapter = new FilterArrayAdapter(getActivity(), filterItems);
+        mFilterList.setAdapter(filterAdapter);
 
         mFilterList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -56,10 +59,19 @@ public class MainActivityFragment extends Fragment {
             }
         });
 
+        ListView mFlagList = (ListView) view.findViewById(R.id.flagsList);
+        flagsAdapter = new FlagAdapter(getActivity(), flagItems);
+        mFlagList.setAdapter(flagsAdapter);
+
         return view;
     }
 
-    private void loadFilterItems() {
+    private void loadResources() {
+        Class<R.array> res_cl;
+        Field field;
+
+        res_cl = R.array.class;
+
         Resources res = getResources();
         TypedArray filterImages = res.obtainTypedArray(R.array.filterImages);
         TypedArray filterNames = res.obtainTypedArray(R.array.filterNames);
@@ -67,17 +79,43 @@ public class MainActivityFragment extends Fragment {
         int size = filterNames.length();
 
         for (int i = 0; i < size; i++) {
-            filterItems.add(new FilterItem(filterNames.getString(i), filterImages.getDrawable(i)));
+            filterItems.add(new FilterItem(filterNames.getString(i), filterImages.getDrawable(i), filterImages.getInt(i, -1)));
         }
 
         filterNames.recycle();
         filterImages.recycle();
+
+        TypedArray flagImages = res.obtainTypedArray(R.array.flagImages);
+        TypedArray flagNames = res.obtainTypedArray(R.array.flagNames);
+        size = flagNames.length();
+
+        for (int i = 0; i < size; i++) {
+            try {
+                field = res_cl.getField("flag_p" + String.valueOf(i));
+                int[] flagProps = res.getIntArray(field.getInt(null));
+
+                LogUtil.v(String.valueOf(field));
+                List<Integer> intList = new ArrayList<>();
+                for (int flagProp : flagProps) {
+                    intList.add(flagProp);
+                }
+
+                flagItems.add(new FlagItem(flagNames.getString(i), flagImages.getDrawable(i), intList));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+        LogUtil.v(String.valueOf(size));
+        flagNames.recycle();
+        flagImages.recycle();
     }
 
     private void resetFilter() {
         for (FilterItem filterItem : filterItems) {
             filterItem.setSelected(false);
         }
-        adapter.notifyDataSetChanged();
+        filterAdapter.notifyDataSetChanged();
+        flagsAdapter.notifyDataSetChanged();
     }
 }
