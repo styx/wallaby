@@ -1,6 +1,7 @@
 package by.styx.wallaby;
 
 import android.content.Context;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,7 +45,7 @@ public class FlagAdapter extends BaseAdapter implements Filterable {
         ViewHolder holder;
 
         if (convertView == null) {
-            convertView = mInflater.inflate(R.layout.flag, parent);
+            convertView = mInflater.inflate(R.layout.flag, parent, false);
 
             holder = new ViewHolder();
             holder.imageView = (ImageView) convertView.findViewById(R.id.flagImage);
@@ -71,9 +72,17 @@ public class FlagAdapter extends BaseAdapter implements Filterable {
     }
 
     private class FlagFilter extends Filter {
+        private final TextUtils.StringSplitter splitter = new TextUtils.SimpleStringSplitter(';');
+
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
-            Integer filterString = Integer.valueOf(constraint.toString().toLowerCase());
+
+            splitter.setString(constraint.toString());
+            List<Integer> selectedProps = new ArrayList<>();
+            for (String s : splitter) {
+                selectedProps.add(Integer.valueOf(s));
+            }
+
             FilterResults results = new FilterResults();
 
             final List<FlagItem> list = originalData;
@@ -84,7 +93,13 @@ public class FlagAdapter extends BaseAdapter implements Filterable {
 
             for (int i = 0; i < count; i++) {
                 filterableFlag = list.get(i);
-                if (filterableFlag.hasProp(filterString)) {
+
+//                for (Integer selectedProp : selectedProps) {
+//                    if (filterableFlag.hasProp(selectedProp)) {
+//                        nList.add(filterableFlag);
+//                    }
+//            }
+                if (filterableFlag.hasProps(selectedProps)) {
                     nList.add(filterableFlag);
                 }
             }

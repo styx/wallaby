@@ -7,8 +7,8 @@ public final class LogUtil {
 
     private static final String TAG = "WALLABY";
 
-    public static void v(String msg) {
-        android.util.Log.v(TAG, getLocation() + msg);
+    public static void v(Object msg) {
+        android.util.Log.v(TAG, getLocation() + String.valueOf(msg));
     }
 
     private static String getLocation() {

@@ -59,6 +59,15 @@ public class MainActivityFragment extends Fragment {
             }
         });
 
+
+        Button doFilter = (Button) view.findViewById(R.id.doFilter);
+        doFilter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                doFilter();
+            }
+        });
+
         ListView mFlagList = (ListView) view.findViewById(R.id.flagsList);
         flagsAdapter = new FlagAdapter(getActivity(), flagItems);
         mFlagList.setAdapter(flagsAdapter);
@@ -79,7 +88,7 @@ public class MainActivityFragment extends Fragment {
         int size = filterNames.length();
 
         for (int i = 0; i < size; i++) {
-            filterItems.add(new FilterItem(filterNames.getString(i), filterImages.getDrawable(i), filterImages.getInt(i, -1)));
+            filterItems.add(new FilterItem(filterNames.getString(i), filterImages.getDrawable(i), filterImages.getResourceId(i, -1)));
         }
 
         filterNames.recycle();
@@ -92,21 +101,23 @@ public class MainActivityFragment extends Fragment {
         for (int i = 0; i < size; i++) {
             try {
                 field = res_cl.getField("flag_p" + String.valueOf(i));
-                int[] flagProps = res.getIntArray(field.getInt(null));
+                TypedArray flagProps = res.obtainTypedArray(field.getInt(null));
 
-                LogUtil.v(String.valueOf(field));
                 List<Integer> intList = new ArrayList<>();
-                for (int flagProp : flagProps) {
-                    intList.add(flagProp);
+                int propSize = flagProps.length();
+
+                for (int j = 0; j < propSize; j++) {
+                    intList.add(flagProps.getResourceId(j, -1));
                 }
 
                 flagItems.add(new FlagItem(flagNames.getString(i), flagImages.getDrawable(i), intList));
+
+                flagProps.recycle();
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
 
-        LogUtil.v(String.valueOf(size));
         flagNames.recycle();
         flagImages.recycle();
     }
@@ -117,5 +128,17 @@ public class MainActivityFragment extends Fragment {
         }
         filterAdapter.notifyDataSetChanged();
         flagsAdapter.notifyDataSetChanged();
+        doFilter();
+    }
+
+    private void doFilter() {
+        StringBuilder s = new StringBuilder();
+        for (FilterItem filterItem : filterItems) {
+            if (filterItem.isSelected()) {
+                s.append(filterItem.getId()).append(";");
+            }
+        }
+
+        flagsAdapter.getFilter().filter(s);
     }
 }

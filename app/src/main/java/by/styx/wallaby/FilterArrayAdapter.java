@@ -35,7 +35,7 @@ public class FilterArrayAdapter extends ArrayAdapter {
         View rowView = convertView;
         if (rowView == null) {
             LayoutInflater inflater = context.getLayoutInflater();
-            rowView = inflater.inflate(R.layout.filter, null, true);
+            rowView = inflater.inflate(R.layout.filter, parent, false);
             holder = new ViewHolder();
             holder.textView = (TextView) rowView.findViewById(R.id.filterText);
             holder.imageView = (ImageView) rowView.findViewById(R.id.filterImage);

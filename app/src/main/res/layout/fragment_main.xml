@@ -33,6 +33,15 @@
         android:layout_alignParentEnd="true">
 
         <Button
+            android:id="@+id/doFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/doFilter"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/resetFilter"
+            android:layout_toStartOf="@+id/resetFilter" />
+
+        <Button
             android:id="@+id/resetFilter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,6 +59,7 @@
             android:layout_below="@+id/resetFilter"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
+
     </RelativeLayout>
 
 </RelativeLayout>

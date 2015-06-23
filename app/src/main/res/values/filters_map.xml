@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="filterNames">
-        <item>Android</item>
-        <item>Linux</item>
-        <item>Ubuntu</item>
+        <item>Star</item>
+        <item>Blank</item>
+        <item>Dot</item>
+        <item>Radio</item>
     </array>
     <array name="filterImages">
         <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
         <item>@drawable/abc_btn_default_mtrl_shape</item>
         <item>@drawable/abc_btn_switch_to_on_mtrl_00001</item>
+        <item>@drawable/abc_btn_radio_material</item>
     </array>
 
     <array name="flagNames">
@@ -21,5 +23,6 @@
 
     <integer-array name="flag_p0">
         <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
+        <item>@drawable/abc_btn_radio_material</item>
     </integer-array>
 </resources>
