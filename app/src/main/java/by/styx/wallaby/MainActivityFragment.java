@@ -60,15 +60,6 @@ public class MainActivityFragment extends Fragment {
             }
         });
 
-
-        Button doFilter = (Button) view.findViewById(R.id.doFilter);
-        doFilter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                doFilter();
-            }
-        });
-
         ListView mFlagList = (ListView) view.findViewById(R.id.flagsList);
         flagsAdapter = new FlagAdapter(getActivity(), flagItems);
         mFlagList.setAdapter(flagsAdapter);
@@ -142,6 +133,4 @@ public class MainActivityFragment extends Fragment {
 
         flagsAdapter.getFilter().filter(s);
     }
-
-
 }
