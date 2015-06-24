@@ -4,12 +4,22 @@
         <item>Star 5</item>
         <item>Star 6, 7, 8</item>
         <item>Any kind of blue</item>
+        <item>Any kind of green</item>
+        <item>Any kind of red</item>
+        <item>Any kind of yellow/orange</item>
+        <item>White color</item>
+        <item>Black color</item>
     </array>
 
     <array name="filterImages">
         <item>@drawable/ic_star5</item>
         <item>@drawable/ic_star678</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_black</item>
     </array>
 
     <integer-array name="flag_p0">
