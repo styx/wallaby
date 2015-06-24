@@ -23,15 +23,23 @@
     </array>
 
     <integer-array name="flag_p0">
+        <item>@drawable/australia</item>
         <item>@drawable/ic_star678</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_red</item>
     </integer-array>
     <integer-array name="flag_p1">
         <item>@drawable/austria</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
     </integer-array>
     <integer-array name="flag_p2">
         <item>@drawable/azerbaijan</item>
+        <item>@drawable/ic_red</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_star678</item>
     </integer-array>
     <integer-array name="flag_p3">
         <item>@drawable/aland_islands</item>
