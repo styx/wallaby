@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="flagImages">
+        <item>@drawable/australia</item>
+        <item>@drawable/austria</item>
+        <item>@drawable/azerbaijan</item>
+        <item>@drawable/aland_islands</item>
+        <item>@drawable/albania</item>
+        <item>@drawable/algeria</item>
+        <item>@drawable/virgin_islands_us</item>
+        <item>@drawable/american_samoa</item>
+        <item>@drawable/anguilla</item>
+        <item>@drawable/england</item>
+        <item>@drawable/angola</item>
+        <item>@drawable/andorra</item>
+        <item>@drawable/antarctica</item>
+        <item>@drawable/antigua_and_barbuda</item>
+        <item>@drawable/argentina</item>
+        <item>@drawable/armenia</item>
+        <item>@drawable/aruba</item>
+        <item>@drawable/afghanistan</item>
+        <item>@drawable/bahamas</item>
+        <item>@drawable/bangladesh</item>
+        <item>@drawable/barbados</item>
+        <item>@drawable/bahrain</item>
+        <item>@drawable/belize</item>
+        <item>@drawable/belarus</item>
+        <item>@drawable/belgium</item>
+        <item>@drawable/benin</item>
+        <item>@drawable/bermuda</item>
+        <item>@drawable/bulgaria</item>
+        <item>@drawable/bolivia</item>
+        <item>@drawable/bonaire</item>
+        <item>@drawable/bosnia_and_herzegovina</item>
+        <item>@drawable/botswana</item>
+        <item>@drawable/brazil</item>
+        <item>@drawable/british_indian_ocean_territory</item>
+        <item>@drawable/virgin_islands_british</item>
+        <item>@drawable/brunei</item>
+        <item>@drawable/bouvet_island</item>
+        <item>@drawable/burkina_faso</item>
+        <item>@drawable/burundi</item>
+        <item>@drawable/bhutan</item>
+        <item>@drawable/vanuatu</item>
+        <item>@drawable/vatican_city</item>
+        <item>@drawable/united_kingdom</item>
+        <item>@drawable/hungary</item>
+        <item>@drawable/venezuela</item>
+        <item>@drawable/east_timor</item>
+        <item>@drawable/vietnam</item>
+        <item>@drawable/gabon</item>
+        <item>@drawable/haiti</item>
+        <item>@drawable/guyana</item>
+        <item>@drawable/gambia</item>
+        <item>@drawable/ghana</item>
+        <item>@drawable/guadeloupe</item>
+        <item>@drawable/guatemala</item>
+        <item>@drawable/french_guiana</item>
+        <item>@drawable/guinea</item>
+        <item>@drawable/guinea_bissau</item>
+        <item>@drawable/germany</item>
+        <item>@drawable/guernsey</item>
+        <item>@drawable/gibraltar</item>
+        <item>@drawable/honduras</item>
+        <item>@drawable/hong_kong</item>
+        <item>@drawable/grenada</item>
+        <item>@drawable/greenland</item>
+        <item>@drawable/greece</item>
+        <item>@drawable/georgia</item>
+        <item>@drawable/guam</item>
+        <item>@drawable/denmark</item>
+        <item>@drawable/democratic_republic_of_the_congo</item>
+        <item>@drawable/jersey</item>
+        <item>@drawable/djibouti</item>
+        <item>@drawable/dominica</item>
+        <item>@drawable/dominican_republic</item>
+        <item>@drawable/european_union</item>
+        <item>@drawable/egypt</item>
+        <item>@drawable/zambia</item>
+        <item>@drawable/western_sahara</item>
+        <item>@drawable/zimbabwe</item>
+        <item>@drawable/israel</item>
+        <item>@drawable/india</item>
+        <item>@drawable/indonesia</item>
+        <item>@drawable/jordan</item>
+        <item>@drawable/iran</item>
+        <item>@drawable/ireland</item>
+        <item>@drawable/iceland</item>
+        <item>@drawable/spain</item>
+        <item>@drawable/italy</item>
+        <item>@drawable/yemen</item>
+        <item>@drawable/cape_verde</item>
+        <item>@drawable/kazakhstan</item>
+        <item>@drawable/cayman_islands</item>
+        <item>@drawable/cambodia</item>
+        <item>@drawable/cameroon</item>
+        <item>@drawable/canada</item>
+        <item>@drawable/qatar</item>
+        <item>@drawable/kenya</item>
+        <item>@drawable/cyprus</item>
+        <item>@drawable/kyrgyzstan</item>
+        <item>@drawable/kiribati</item>
+        <item>@drawable/china</item>
+        <item>@drawable/cocos_islands</item>
+        <item>@drawable/colombia</item>
+        <item>@drawable/comoros</item>
+        <item>@drawable/kosovo</item>
+        <item>@drawable/costa_rica</item>
+        <item>@drawable/cote_d_ivoire</item>
+        <item>@drawable/cuba</item>
+        <item>@drawable/kuwait</item>
+        <item>@drawable/curacao</item>
+        <item>@drawable/laos</item>
+        <item>@drawable/latvia</item>
+        <item>@drawable/lesotho</item>
+        <item>@drawable/liberia</item>
+        <item>@drawable/lebanon</item>
+        <item>@drawable/libya</item>
+        <item>@drawable/lithuania</item>
+        <item>@drawable/liechtenstein</item>
+        <item>@drawable/luxembourg</item>
+        <item>@drawable/mauritius</item>
+        <item>@drawable/mauritania</item>
+        <item>@drawable/madagascar</item>
+        <item>@drawable/mayotte</item>
+        <item>@drawable/macao</item>
+        <item>@drawable/macedonia</item>
+        <item>@drawable/malawi</item>
+        <item>@drawable/malaysia</item>
+        <item>@drawable/mali</item>
+        <item>@drawable/maldives</item>
+        <item>@drawable/malta</item>
+        <item>@drawable/morocco</item>
+        <item>@drawable/martinique</item>
+        <item>@drawable/marshall_islands</item>
+        <item>@drawable/mexico</item>
+        <item>@drawable/micronesia</item>
+        <item>@drawable/mozambique</item>
+        <item>@drawable/moldova</item>
+        <item>@drawable/monaco</item>
+        <item>@drawable/mongolia</item>
+        <item>@drawable/montserrat</item>
+        <item>@drawable/myanmar</item>
+        <item>@drawable/namibia</item>
+        <item>@drawable/nauru</item>
+        <item>@drawable/nepal</item>
+        <item>@drawable/niger</item>
+        <item>@drawable/nigeria</item>
+        <item>@drawable/netherlands</item>
+        <item>@drawable/nicaragua</item>
+        <item>@drawable/niue</item>
+        <item>@drawable/new_zealand</item>
+        <item>@drawable/new_caledonia</item>
+        <item>@drawable/norway</item>
+        <item>@drawable/norfolk_island</item>
+        <item>@drawable/united_arab_emirates</item>
+        <item>@drawable/oman</item>
+        <item>@drawable/isle_of_man</item>
+        <item>@drawable/christmas_island</item>
+        <item>@drawable/heard_island_and_mcdonald_islands</item>
+        <item>@drawable/cook_islands</item>
+        <item>@drawable/pitcairn_islands</item>
+        <item>@drawable/saint_helena</item>
+        <item>@drawable/pakistan</item>
+        <item>@drawable/palau</item>
+        <item>@drawable/palestinian_territory</item>
+        <item>@drawable/panama</item>
+        <item>@drawable/papua_new_guinea</item>
+        <item>@drawable/paraguay</item>
+        <item>@drawable/peru</item>
+        <item>@drawable/poland</item>
+        <item>@drawable/portugal</item>
+        <item>@drawable/puerto_rico</item>
+        <item>@drawable/iraq</item>
+        <item>@drawable/republic_of_the_congo</item>
+        <item>@drawable/reunion</item>
+        <item>@drawable/russia</item>
+        <item>@drawable/rwanda</item>
+        <item>@drawable/romania</item>
+        <item>@drawable/el_salvador</item>
+        <item>@drawable/samoa</item>
+        <item>@drawable/san_marino</item>
+        <item>@drawable/sao_tome_and_principe</item>
+        <item>@drawable/saudi_arabia</item>
+        <item>@drawable/swaziland</item>
+        <item>@drawable/korea_north</item>
+        <item>@drawable/northern_mariana_islands</item>
+        <item>@drawable/seychelles</item>
+        <item>@drawable/saint_barthelemy</item>
+        <item>@drawable/saint_martin</item>
+        <item>@drawable/saint_pierre_and_miquelon</item>
+        <item>@drawable/senegal</item>
+        <item>@drawable/saint_vincent_and_the_grenadines</item>
+        <item>@drawable/saint_kitts_and_nevis</item>
+        <item>@drawable/saint_lucia</item>
+        <item>@drawable/serbia</item>
+        <item>@drawable/singapore</item>
+        <item>@drawable/sint_maarten</item>
+        <item>@drawable/syria</item>
+        <item>@drawable/slovakia</item>
+        <item>@drawable/slovenia</item>
+        <item>@drawable/solomon_islands</item>
+        <item>@drawable/somalia</item>
+        <item>@drawable/ussr</item>
+        <item>@drawable/sudan</item>
+        <item>@drawable/suriname</item>
+        <item>@drawable/united_states_of_america</item>
+        <item>@drawable/sierra_leone</item>
+        <item>@drawable/tajikistan</item>
+        <item>@drawable/thailand</item>
+        <item>@drawable/republic_of_china</item>
+        <item>@drawable/tanzania</item>
+        <item>@drawable/turks_and_caicos_islands</item>
+        <item>@drawable/togo</item>
+        <item>@drawable/tokelau</item>
+        <item>@drawable/tonga</item>
+        <item>@drawable/trinidad_and_tobago</item>
+        <item>@drawable/tuvalu</item>
+        <item>@drawable/tunisia</item>
+        <item>@drawable/turkmenistan</item>
+        <item>@drawable/turkey</item>
+        <item>@drawable/uganda</item>
+        <item>@drawable/uzbekistan</item>
+        <item>@drawable/ukraine</item>
+        <item>@drawable/wallis_and_futuna</item>
+        <item>@drawable/uruguay</item>
+        <item>@drawable/wales</item>
+        <item>@drawable/faroe_islands</item>
+        <item>@drawable/fiji</item>
+        <item>@drawable/philippines</item>
+        <item>@drawable/finland</item>
+        <item>@drawable/falkland_islands</item>
+        <item>@drawable/france</item>
+        <item>@drawable/french_polynesia</item>
+        <item>@drawable/french_southern_territories</item>
+        <item>@drawable/croatia</item>
+        <item>@drawable/central_african_republic</item>
+        <item>@drawable/chad</item>
+        <item>@drawable/montenegro</item>
+        <item>@drawable/czech_republic</item>
+        <item>@drawable/chile</item>
+        <item>@drawable/switzerland</item>
+        <item>@drawable/sweden</item>
+        <item>@drawable/scotland</item>
+        <item>@drawable/svalbard_and_jan_mayen</item>
+        <item>@drawable/sri_lanka</item>
+        <item>@drawable/ecuador</item>
+        <item>@drawable/equatorial_guinea</item>
+        <item>@drawable/eritrea</item>
+        <item>@drawable/estonia</item>
+        <item>@drawable/ethiopia</item>
+        <item>@drawable/south_africa</item>
+        <item>@drawable/south_georgia_and_the_south_sandwich_islands</item>
+        <item>@drawable/korea_south</item>
+        <item>@drawable/south_sudan</item>
+        <item>@drawable/jamaica</item>
+        <item>@drawable/japan</item>
+    </array>
+
+    <array name="flagNames">
+        <item>Австралия Канберра +61 .au Океания</item>
+        <item>Австрийская Республика Вена +43 .at Европа</item>
+        <item>Азербайджанская Республика Баку +994 .az Азия</item>
+        <item>Аландские острова Мариехамн +358 .ax Европа</item>
+        <item>Республика Албания Тирана +355 .al Европа</item>
+        <item>Алжирская Народная Демократическая Республика Алжир +213 .dz Африка</item>
+        <item>Американские Виргинские острова Шарлотта-Амалия +1 .vi Америка</item>
+        <item>Американское Самоа Паго-Паго +1-684 .as Океания</item>
+        <item>Ангилья Валли +1-264 .ai Америка</item>
+        <item>Англия Лондон +44 .uk Европа</item>
+        <item>Республика Ангола Луанда +244 .ao Африка</item>
+        <item>Княжество Андорра Андорра-ла-Велья +376 .ad Европа</item>
+        <item>Антарктида — .aq Антарктика</item>
+        <item>Антигуа и Барбуда Сент-Джонс +1-268 .ag Америка</item>
+        <item>Аргентинская Республика Буэнос-Айрес +54 .ar Америка</item>
+        <item>Республика Армения Ереван +347 .am Азия</item>
+        <item>Аруба Ораньестад +297 .aw Америка</item>
+        <item>Исламская Республика Афганистан Кабул +93 .af Азия</item>
+        <item>Содружество Багамских Островов Нассау +1-242 .bs Америка</item>
+        <item>Народная Республика Бангладеш Дакка +880 .bd Азия</item>
+        <item>Барбадос Бриджтаун +1 .bb Америка</item>
+        <item>Королевство Бахрейн Манама +973 .bx Азия</item>
+        <item>Белиз Бельмопан +501 .bz Америка</item>
+        <item>Республика Беларусь Минск +375 .by Европа</item>
+        <item>Королевство Бельгия Брюссель +32 .be Европа</item>
+        <item>Республика Бенин Порто-Ново +229 .bj Африка</item>
+        <item>Бермудские острова Гамильтон +1-441 .bm Америка</item>
+        <item>Республика Болгария София +359 .bg Европа</item>
+        <item>Многонациональное Государство Боливия Сукре +591 .bo Америка</item>
+        <item>Бонэйр/Карибские Нидерланды Кралендейк +599 .nl Америка</item>
+        <item>Босния и Герцеговина Сараево +387 .ba Европа</item>
+        <item>Республика Ботсвана Габороне +267 .bw Африка</item>
+        <item>Федеративная Республика Бразилия Бразилиа +55 .br Америка</item>
+        <item>Британская территория в Индийском океане Диего-Гарсия +246 .io Азия</item>
+        <item>Британские Виргинские острова Род-Таун +1-284 .vg Америка</item>
+        <item>Государство Бруней-Даруссалам Бандар-Сери-Бегаван +673 .bn Азия</item>
+        <item>Буве — .bv Америка</item>
+        <item>Буркина Фасо Уагадугу +226 .bf Африка</item>
+        <item>Республика Бурунди Бужумбура +257 .bi Африка</item>
+        <item>Королевство Бутан Тхимпху +975 .bt Азия</item>
+        <item>Республика Вануату Порт-Вила +678 .vu Океания</item>
+        <item>Ватикан Ватикан +379 .va Европа</item>
+        <item>Великобритания/Соединённое Королевство Великобритании и Северной Ирландии Лондон +44 .uk Европа</item>
+        <item>Венгрия Будапешт +36 .hu Европа</item>
+        <item>Боливарианская Республика Венесуэла Каракас +58 .ve Америка</item>
+        <item>Демократическая Республика Восточный Тимор Дили +670 .tl Азия</item>
+        <item>Социалистическая Республика Вьетнам Ханой +84 .vn Азия</item>
+        <item>Габонская Республика Либревиль +241 .ga Африка</item>
+        <item>Республика Гаити Порт-о-Пренс +509 .ht Америка</item>
+        <item>Кооперативная Республика Гайана Джорджтаун +592 .gy Америка</item>
+        <item>Республика Гамбия Банжул +220 .gm Африка</item>
+        <item>Республика Гана Аккра +233 .gh Африка</item>
+        <item>Гваделупа Бас-Тер — — Америка</item>
+        <item>Республика Гватемала Гватемала +502 .gt Америка</item>
+        <item>Французская Гвиана Кайенна +594 .gf Америка</item>
+        <item>Гвинейская Республика Конакри +224 .gn Африка</item>
+        <item>Республика Гвинея-Бисау Бисау +245 .gw Африка</item>
+        <item>Федеративная Республика Германия Берлин +49 .de Европа</item>
+        <item>Гернси Сент-Питер-Порт +44-1481 .gg Европа</item>
+        <item>Гибралтар Гибралтар +350 .gi Европа</item>
+        <item>Республика Гондурас Тегусигальпа +504 .hn Америка</item>
+        <item>Специальный административный район Гонконг Гонконг +852 .hk Азия</item>
+        <item>Гренада Сент-Джорджес +1-473 .gd Америка</item>
+        <item>Гренландия Нуук +299 .gl Европа</item>
+        <item>Греческая Республика Афины +30 .gr Европа</item>
+        <item>Грузия Тбилиси +995 .ge Азия</item>
+        <item>Территория Гуам Хагатна +1-671 .gu Азия</item>
+        <item>Королевство Дания Копенгаген +45 .dk Европа</item>
+        <item>Демократическая Республика Конго Киншаса +243 .cd Африка</item>
+        <item>Джерси Сент-Хельер +44 .je Европа</item>
+        <item>Республика Джибути Джибути +253 .dj Африка</item>
+        <item>Содружество Доминики Розо +1-767 .dm Америка</item>
+        <item>Доминиканская Республика Санто-Доминго +1-809, +1-829, +1-849 .do Америка</item>
+        <item>Европейский союз — .eu Европа</item>
+        <item>Арабская Республика Египет Каир +20 .eg Африка</item>
+        <item>Республика Замбия Лусака +260 .zm Африка</item>
+        <item>Западная Сахара Эль-Аюн +212 .eh Африка</item>
+        <item>Республика Зимбабве Хараре +263 .zv Африка</item>
+        <item>Государство Израиль Иерусалим +972 .il Азия</item>
+        <item>Республика Индия Нью-Дели +91 .in Азия</item>
+        <item>Республика Индонезия Джакарта +62 .id Азия</item>
+        <item>Иорданское Хашимитское Королевство Амман +962 .jo Азия</item>
+        <item>Исламская Республика Иран Тегеран +98 .ir Азия</item>
+        <item>Республика Ирландия Дублин +353 .ie Европа</item>
+        <item>Исландия Рейкьявик +354 .is Европа</item>
+        <item>Королевство Испания Мадрид +34 .es Европа</item>
+        <item>Итальянская Республика Рим +39 .it Европа</item>
+        <item>Йеменская Республика Сана +967 .ye Азия</item>
+        <item>Республика Кабо-Верде Прая +238 .cv Африка</item>
+        <item>Республика Казахстан Астана +7 .kz Азия</item>
+        <item>Каймановы острова Джорджтаун +1-345 .ky Америка</item>
+        <item>Королевство Камбоджа Пномпень +855 .kh Азия</item>
+        <item>Республика Камерун Яунде +237 .cm Африка</item>
+        <item>Канада Оттава +1 .ca Америка</item>
+        <item>Государство Катар Доха +974 .qa Азия</item>
+        <item>Республика Кения Найроби +254 .ke Африка</item>
+        <item>Республика Кипр Никосия +357 .cy Европа</item>
+        <item>Киргизская Республика Бишкек +996 .kg Азия</item>
+        <item>Республика Кирибати Тарава +686 .ki Океания</item>
+        <item>Китайская Народная Республика Пекин +86 .cn Азия</item>
+        <item>Территория Кокосовых островов (Килинг) Уэст-Айленд +61 891 .cc Океания</item>
+        <item>Республика Колумбия Богота +57 .co Америка</item>
+        <item>Союз Коморских Островов Морони +269 .km Африка</item>
+        <item>Республика Косово Приштина +381 — Европа</item>
+        <item>Республика Коста-Рика Сан-Хосе +506 .cr Америка</item>
+        <item>Республика Кот-д\'Ивуар Ямусукро +225 .ci Африка</item>
+        <item>Социалистическая Республика Куба Гавана +53 .cu Америка</item>
+        <item>Государство Кувейт Эль-Кувейт +965 .kw Азия</item>
+        <item>Кюрасао Виллемстад +599-9 .cw Америка</item>
+        <item>Лаосская Народно-Демократическая Республика Вьентьян +856 .la Азия</item>
+        <item>Латвийская Республика Рига +371 .lv Европа</item>
+        <item>Королевство Лесото Масеру +266 .ls Африка</item>
+        <item>Республика Либерия Монровия +231 .lr Африка</item>
+        <item>Ливанская Республика Бейрут +961 .lb Азия</item>
+        <item>Ливийская Республика Триполи +218 .ly Африка</item>
+        <item>Литовская Республика Вильнюс +370 .lt Европа</item>
+        <item>Княжество Лихтенштейн Вадуц +423 .li Европа</item>
+        <item>Великое Герцогство Люксембург Люксембург +352 .lu Европа</item>
+        <item>Республика Маврикий Порт-Луи +230 .mu Африка</item>
+        <item>Исламская Республика Мавритания Нуакшот +222 .mr Африка</item>
+        <item>Республика Мадагаскар Антананариву +261 .mg Африка</item>
+        <item>Заморский департамент Майотта Мамудзу +262 .yt Африка</item>
+        <item>Специальный административный район Макао +853 .mo Азия</item>
+        <item>Республика Македония Скопье +389 .mk Европа</item>
+        <item>Республика Малави Лилонгве +265 .mw Африка</item>
+        <item>Малайзия Куала-Лумпур +60 .my Азия</item>
+        <item>Республика Мали Бамако +223 .ml Африка</item>
+        <item>Мальдивская Республика Мале +960 .mv Азия</item>
+        <item>Республика Мальта Валлетта +356 .mt Европа</item>
+        <item>Королевство Марокко Рабат +212 .ma Африка</item>
+        <item>Мартиника Фор-де-Франс — — Америка</item>
+        <item>Республика Маршалловы Острова Маджуро +692 .mh Океания</item>
+        <item>Мексиканские Соединённые Штаты Мехико +52 .mx Америка</item>
+        <item>Федеративные Штаты Микронезии Паликир +691 .fm Океания</item>
+        <item>Республика Мозамбик Мапуту +258 .mz Африка</item>
+        <item>Республика Молдова Кишинёв +373 .md Европа</item>
+        <item>Княжество Монако Монте-Карло +377 .mc Европа</item>
+        <item>Монголия Улан-Батор +976 .mn Азия</item>
+        <item>Монтсеррат Плимут +1-664 .ms Америка</item>
+        <item>Республика Союз Мьянма Нейпьидо +95 .mm Азия</item>
+        <item>Республика Намибия Виндхук +264 .na Африка</item>
+        <item>Республика Науру Ярен +674 .nr Океания</item>
+        <item>Федеративная Демократическая Республика Непал Катманду +977 .np Азия</item>
+        <item>Республика Нигер Ниамей +227 .ne Африка</item>
+        <item>Федеративная Республика Нигерия Абуджа +234 .ng Африка</item>
+        <item>Королевство Нидерландов Амстердам +31 .nl Европа</item>
+        <item>Республика Никарагуа Манагуа +505 .ni Америка</item>
+        <item>Ниуэ Алофи +683 .nu Океания</item>
+        <item>Новая Зеландия Веллингтон +64 .nz Океания</item>
+        <item>Новая Каледония Нумеа +687 .nc Океания</item>
+        <item>Королевство Норвегия Осло +47 .no Европа</item>
+        <item>Остров Норфолк Кингстон +672 .nf Океания</item>
+        <item>Объединённые Арабские Эмираты Абу-Даби +971 .ae Азия</item>
+        <item>Султанат Оман Маскат +968 .om Азия</item>
+        <item>Остров Мэн Дуглас +44-1624 .im Европа</item>
+        <item>Остров Рождества Флайинг-Фиш-Коув +61 .cx Океания</item>
+        <item>Остров Херд и Острова Макдоналд — .hm Антарктика</item>
+        <item>Острова Кука Аваруа +682 .ck Океания</item>
+        <item>Острова Питкэрн Адамстаун +64 .pn Океания</item>
+        <item>Острова Святой Елены, Вознесения и Тристан-да-Кунья Джеймстаун +290 .sh Африка</item>
+        <item>Исламская Республика Пакистан Исламабад +92 .pk Азия</item>
+        <item>Республика Палау Мелекеок +680 .pw Африка</item>
+        <item>Палестинские территории Рамалла +970 .ps Азия</item>
+        <item>Республика Панама Панама +507 .pa Америка</item>
+        <item>Независимое Государство Папуа — Новая Гвинея Порт-Морсби +675 .pg Океания</item>
+        <item>Республика Парагвай Асунсьон +595 .py Америка</item>
+        <item>Республика Перу Лима +51 .pe Америка</item>
+        <item>Республика Польша Варшава +48 .pl Европа</item>
+        <item>Португальская Республика Лиссабон +351 .pt Европа</item>
+        <item>Свободно ассоциированное государство Пуэрто-Рико Сан-Хуан +1 .pr Америка</item>
+        <item>Ирак Багдад +964 .iq Азия</item>
+        <item>Республика Конго Браззавиль +242 .cg Африка</item>
+        <item>Реюньон Сен-Дени — — Африка</item>
+        <item>Российская Федерация Москва +7 .ru Европа</item>
+        <item>Республика Руанда Кигали +250 .rw Африка</item>
+        <item>Румыния Бухарест +40 .ro Европа</item>
+        <item>Республика Эль-Сальвадор Сан-Сальвадор +503 .sv Америка</item>
+        <item>Независимое Государство Самоа Апиа +685 .ws Океания</item>
+        <item>Светлейшая Республика Сан-Марино Сан-Марино +378 .sm Европа</item>
+        <item>Демократическая Республика Сан-Томе и Принсипи Сан-Томе +239 .st Африка</item>
+        <item>Королевство Саудовская Аравия Эр-Рияд +966 .sa Азия</item>
+        <item>Королевство Свазиленд Мбабане +268 .sz Африка</item>
+        <item>Корейская Народно-Демократическая Республика Пхеньян +850 .kp Азия</item>
+        <item>Содружество Северных Марианских островов Сайпан +1-670 .mp Океания</item>
+        <item>Республика Сейшельские Острова Виктория +248 .sc Африка</item>
+        <item>Сен-Бартелеми Густавия +590 .bl Америка</item>
+        <item>Заморская территория Сен-Мартен Мариго +590 .mf Америка</item>
+        <item>Сен-Пьер и Микелон Сен-Пьер +508 .pm Америка</item>
+        <item>Республика Сенегал Дакар +221 .sn Африка</item>
+        <item>Сент-Винсент и Гренадины Кингстаун +1-784 .vc Америка</item>
+        <item>Федерация Сент-Китс и Невис Бастер +1-869 .kn Америка</item>
+        <item>Сент-Люсия Кастри +1-758 .lc Америка</item>
+        <item>Республика Сербия Белград +381 .rs Европа</item>
+        <item>Республика Сингапур Сингапур +65 .sg Азия</item>
+        <item>Синт-Мартен Филипсбург +1-721 .sx Америка</item>
+        <item>Сирийская Арабская Республика Дамаск +963 .sy Азия</item>
+        <item>Словацкая Республика Братислава +421 .sk Европа</item>
+        <item>Республика Словения Любляна +386 .si Европа</item>
+        <item>Соломоновы Острова Хониара +677 .sb Океания</item>
+        <item>Сомалийская Республика Могадишо +252 .so Африка</item>
+        <item>Союз Советских Социалистических Республик Москва +7 .su Европа</item>
+        <item>Республика Судан Хартум +249 .sd Африка</item>
+        <item>Республика Суринам Парамарибо +597 .sr Америка</item>
+        <item>Соединённые Штаты Америки Вашингтон +1 .us Америка</item>
+        <item>Республика Сьерра-Леоне Фритаун +232 .sl Африка</item>
+        <item>Республика Таджикистан Душанбе +992 .tj Азия</item>
+        <item>Королевство Таиланд Бангкок +66 .th Азия</item>
+        <item>Тайвань/Китайская Республика Тайбэй +886 .tw Азия</item>
+        <item>Объединённая Республика Танзания Додома +255 .tz Африка</item>
+        <item>Тёркс и Кайкос Коберн-Таун +1-649 .tc Америка</item>
+        <item>Того/Тоголезская Республика Ломе +228 .tg Африка</item>
+        <item>Токелау Нукунону +690 .tk Океания</item>
+        <item>Королевство Тонга Нукуалофа +676 .to Океания</item>
+        <item>Республика Тринидад и Тобаго Порт-оф-Спейн +1-868 .tt Америка</item>
+        <item>Тувалу Фунафути +688 .tv Океания</item>
+        <item>Тунисская Республика Тунис +216 .tn Африка</item>
+        <item>Туркменистан Ашхабад +993 .tm Азия</item>
+        <item>Турецкая Республика Анкара +90 .tr Азия</item>
+        <item>Республика Уганда Кампала +256 .ug Африка</item>
+        <item>Республика Узбекистан Ташкент +998 .uz Азия</item>
+        <item>Украина Киев +380 .ua Европа</item>
+        <item>Уоллис и Футуна Мата-Уту +681 .wf Океания</item>
+        <item>Восточная Республика Уругвай Монтевидео +598 .uy Америка</item>
+        <item>Уэльс Кардифф +44 .uk Европа</item>
+        <item>Фарерские острова Торсхавн +298 .fo Европа</item>
+        <item>Республика Островов Фиджи Сува +697 .fj Океания</item>
+        <item>Республика Филиппины Манила +63 .ph Азия</item>
+        <item>Финляндская Республика Хельсинки +358 .fi Европа</item>
+        <item>Фолклендские острова Порт-Стэнли +500 .fk Америка</item>
+        <item>Французская Республика Париж +33 .fr Европа</item>
+        <item>Французская Полинезия Папеэте +689 .pf Океания</item>
+        <item>Французские Южные и Антарктические территории Порт-о-Франсэ — .tf Антарктика</item>
+        <item>Республика Хорватия Загреб +385 .hr Европа</item>
+        <item>Центральноафриканская Республика Банги +236 .cf Африка</item>
+        <item>Республика Чад Нджамена +235 .td Африка</item>
+        <item>Черногория Подгорица +382 .me Европа</item>
+        <item>Чешская Республика Прага +420 .cz Европа</item>
+        <item>Республика Чили Сантьяго +56 .cl Америка</item>
+        <item>Швейцарская Конфедерация Берн +41 .ch Европа</item>
+        <item>Королевство Швеция Стокгольм +46 .se Европа</item>
+        <item>Шотландия Эдинбург +44 .uk Европа</item>
+        <item>Шпицберген и Ян-Майен — .sj Европа</item>
+        <item>Демократическая Социалистическая Республика\nШри-Ланка Шри-Джаяварденепура-Котте +94.lk Азия</item>
+        <item>Республика Эквадор Кито +593 .ec Америка</item>
+        <item>Республика Экваториальная Гвинея Малабо +240 .gq Африка</item>
+        <item>Государство Эритрея Асмэра +291 .er Африка</item>
+        <item>Эстонская Республика Таллин +372 .ee Европа</item>
+        <item>Федеративная Демократическая Республика Эфиопия Аддис-Абеба +251 .et Африка</item>
+        <item>ЮАР/Южно-Африканская Республика Кейптаун +27 .za Африка</item>
+        <item>Южная Георгия и Южные Сандвичевы острова Грютвикен — .gs Америка</item>
+        <item>Южная Корея/Республика Корея Сеул +82 .kr Азия</item>
+        <item>Республика Южный Судан Джуба +211 .ss Африка</item>
+        <item>Ямайка Кингстон +1-876 .jm Америка</item>
+        <item>Япония Токио +81 .jp Азия</item>
+    </array>
+
+</resources>

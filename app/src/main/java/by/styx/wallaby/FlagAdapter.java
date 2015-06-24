@@ -94,11 +94,6 @@ public class FlagAdapter extends BaseAdapter implements Filterable {
             for (int i = 0; i < count; i++) {
                 filterableFlag = list.get(i);
 
-//                for (Integer selectedProp : selectedProps) {
-//                    if (filterableFlag.hasProp(selectedProp)) {
-//                        nList.add(filterableFlag);
-//                    }
-//            }
                 if (filterableFlag.hasProps(selectedProps)) {
                     nList.add(filterableFlag);
                 }

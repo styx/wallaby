@@ -1,28 +1,915 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="filterNames">
-        <item>Star</item>
-        <item>Blank</item>
-        <item>Dot</item>
-        <item>Radio</item>
+        <item>Star 5</item>
+        <item>Star 6, 7, 8</item>
+        <item>Any kind of blue</item>
     </array>
+
     <array name="filterImages">
-        <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
-        <item>@drawable/abc_btn_default_mtrl_shape</item>
-        <item>@drawable/abc_btn_switch_to_on_mtrl_00001</item>
-        <item>@drawable/abc_btn_radio_material</item>
-    </array>
-
-    <array name="flagNames">
-        <item>Австралия</item>
-    </array>
-
-    <array name="flagImages">
-        <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
+        <item>@drawable/ic_star5</item>
+        <item>@drawable/ic_star678</item>
+        <item>@drawable/ic_blue</item>
     </array>
 
     <integer-array name="flag_p0">
-        <item>@drawable/abc_btn_rating_star_on_mtrl_alpha</item>
-        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/ic_star678</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p1">
+        <item>@drawable/austria</item>
+    </integer-array>
+    <integer-array name="flag_p2">
+        <item>@drawable/azerbaijan</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p3">
+        <item>@drawable/aland_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p4">
+        <item>@drawable/albania</item>
+    </integer-array>
+    <integer-array name="flag_p5">
+        <item>@drawable/algeria</item>
+    </integer-array>
+    <integer-array name="flag_p6">
+        <item>@drawable/virgin_islands_us</item>
+    </integer-array>
+    <integer-array name="flag_p7">
+        <item>@drawable/american_samoa</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p8">
+        <item>@drawable/anguilla</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p9">
+        <item>@drawable/england</item>
+    </integer-array>
+    <integer-array name="flag_p10">
+        <item>@drawable/angola</item>
+    </integer-array>
+    <integer-array name="flag_p11">
+        <item>@drawable/andorra</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p12">
+        <item>@drawable/antarctica</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p13">
+        <item>@drawable/antigua_and_barbuda</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p14">
+        <item>@drawable/argentina</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p15">
+        <item>@drawable/armenia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p16">
+        <item>@drawable/aruba</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p17">
+        <item>@drawable/afghanistan</item>
+    </integer-array>
+    <integer-array name="flag_p18">
+        <item>@drawable/bahamas</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p19">
+        <item>@drawable/bangladesh</item>
+    </integer-array>
+    <integer-array name="flag_p20">
+        <item>@drawable/barbados</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p21">
+        <item>@drawable/bahrain</item>
+    </integer-array>
+    <integer-array name="flag_p22">
+        <item>@drawable/belize</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p23">
+        <item>@drawable/belarus</item>
+    </integer-array>
+    <integer-array name="flag_p24">
+        <item>@drawable/belgium</item>
+    </integer-array>
+    <integer-array name="flag_p25">
+        <item>@drawable/benin</item>
+    </integer-array>
+    <integer-array name="flag_p26">
+        <item>@drawable/bermuda</item>
+    </integer-array>
+    <integer-array name="flag_p27">
+        <item>@drawable/bulgaria</item>
+    </integer-array>
+    <integer-array name="flag_p28">
+        <item>@drawable/bolivia</item>
+    </integer-array>
+    <integer-array name="flag_p29">
+        <item>@drawable/bonaire</item>
+    </integer-array>
+    <integer-array name="flag_p30">
+        <item>@drawable/bosnia_and_herzegovina</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p31">
+        <item>@drawable/botswana</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p32">
+        <item>@drawable/brazil</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p33">
+        <item>@drawable/british_indian_ocean_territory</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p34">
+        <item>@drawable/virgin_islands_british</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p35">
+        <item>@drawable/brunei</item>
+    </integer-array>
+    <integer-array name="flag_p36">
+        <item>@drawable/bouvet_island</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p37">
+        <item>@drawable/burkina_faso</item>
+    </integer-array>
+    <integer-array name="flag_p38">
+        <item>@drawable/burundi</item>
+    </integer-array>
+    <integer-array name="flag_p39">
+        <item>@drawable/bhutan</item>
+    </integer-array>
+    <integer-array name="flag_p40">
+        <item>@drawable/vanuatu</item>
+    </integer-array>
+    <integer-array name="flag_p41">
+        <item>@drawable/vatican_city</item>
+    </integer-array>
+    <integer-array name="flag_p42">
+        <item>@drawable/united_kingdom</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p43">
+        <item>@drawable/hungary</item>
+    </integer-array>
+    <integer-array name="flag_p44">
+        <item>@drawable/venezuela</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p45">
+        <item>@drawable/east_timor</item>
+    </integer-array>
+    <integer-array name="flag_p46">
+        <item>@drawable/vietnam</item>
+    </integer-array>
+    <integer-array name="flag_p47">
+        <item>@drawable/gabon</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p48">
+        <item>@drawable/haiti</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p49">
+        <item>@drawable/guyana</item>
+    </integer-array>
+    <integer-array name="flag_p50">
+        <item>@drawable/gambia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p51">
+        <item>@drawable/ghana</item>
+    </integer-array>
+    <integer-array name="flag_p52">
+        <item>@drawable/guadeloupe</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p53">
+        <item>@drawable/guatemala</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p54">
+        <item>@drawable/french_guiana</item>
+    </integer-array>
+    <integer-array name="flag_p55">
+        <item>@drawable/guinea</item>
+    </integer-array>
+    <integer-array name="flag_p56">
+        <item>@drawable/guinea_bissau</item>
+    </integer-array>
+    <integer-array name="flag_p57">
+        <item>@drawable/germany</item>
+    </integer-array>
+    <integer-array name="flag_p58">
+        <item>@drawable/guernsey</item>
+    </integer-array>
+    <integer-array name="flag_p59">
+        <item>@drawable/gibraltar</item>
+    </integer-array>
+    <integer-array name="flag_p60">
+        <item>@drawable/honduras</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p61">
+        <item>@drawable/hong_kong</item>
+    </integer-array>
+    <integer-array name="flag_p62">
+        <item>@drawable/grenada</item>
+    </integer-array>
+    <integer-array name="flag_p63">
+        <item>@drawable/greenland</item>
+    </integer-array>
+    <integer-array name="flag_p64">
+        <item>@drawable/greece</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p65">
+        <item>@drawable/georgia</item>
+    </integer-array>
+    <integer-array name="flag_p66">
+        <item>@drawable/guam</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p67">
+        <item>@drawable/denmark</item>
+    </integer-array>
+    <integer-array name="flag_p68">
+        <item>@drawable/democratic_republic_of_the_congo</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p69">
+        <item>@drawable/jersey</item>
+    </integer-array>
+    <integer-array name="flag_p70">
+        <item>@drawable/djibouti</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p71">
+        <item>@drawable/dominica</item>
+    </integer-array>
+    <integer-array name="flag_p72">
+        <item>@drawable/dominican_republic</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p73">
+        <item>@drawable/european_union</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p74">
+        <item>@drawable/egypt</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p75">
+        <item>@drawable/zambia</item>
+    </integer-array>
+    <integer-array name="flag_p76">
+        <item>@drawable/western_sahara</item>
+    </integer-array>
+    <integer-array name="flag_p77">
+        <item>@drawable/zimbabwe</item>
+    </integer-array>
+    <integer-array name="flag_p78">
+        <item>@drawable/israel</item>
+        <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_star678</item>
+    </integer-array>
+    <integer-array name="flag_p79">
+        <item>@drawable/india</item>
+    </integer-array>
+    <integer-array name="flag_p80">
+        <item>@drawable/indonesia</item>
+    </integer-array>
+    <integer-array name="flag_p81">
+        <item>@drawable/jordan</item>
+    </integer-array>
+    <integer-array name="flag_p82">
+        <item>@drawable/iran</item>
+    </integer-array>
+    <integer-array name="flag_p83">
+        <item>@drawable/ireland</item>
+    </integer-array>
+    <integer-array name="flag_p84">
+        <item>@drawable/iceland</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p85">
+        <item>@drawable/spain</item>
+    </integer-array>
+    <integer-array name="flag_p86">
+        <item>@drawable/italy</item>
+    </integer-array>
+    <integer-array name="flag_p87">
+        <item>@drawable/yemen</item>
+    </integer-array>
+    <integer-array name="flag_p88">
+        <item>@drawable/cape_verde</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p89">
+        <item>@drawable/kazakhstan</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p90">
+        <item>@drawable/cayman_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p91">
+        <item>@drawable/cambodia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p92">
+        <item>@drawable/cameroon</item>
+    </integer-array>
+    <integer-array name="flag_p93">
+        <item>@drawable/canada</item>
+    </integer-array>
+    <integer-array name="flag_p94">
+        <item>@drawable/qatar</item>
+    </integer-array>
+    <integer-array name="flag_p95">
+        <item>@drawable/kenya</item>
+    </integer-array>
+    <integer-array name="flag_p96">
+        <item>@drawable/cyprus</item>
+    </integer-array>
+    <integer-array name="flag_p97">
+        <item>@drawable/kyrgyzstan</item>
+    </integer-array>
+    <integer-array name="flag_p98">
+        <item>@drawable/kiribati</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p99">
+        <item>@drawable/china</item>
+    </integer-array>
+    <integer-array name="flag_p100">
+        <item>@drawable/cocos_islands</item>
+    </integer-array>
+    <integer-array name="flag_p101">
+        <item>@drawable/colombia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p102">
+        <item>@drawable/comoros</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p103">
+        <item>@drawable/kosovo</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p104">
+        <item>@drawable/costa_rica</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p105">
+        <item>@drawable/cote_d_ivoire</item>
+    </integer-array>
+    <integer-array name="flag_p106">
+        <item>@drawable/cuba</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p107">
+        <item>@drawable/kuwait</item>
+    </integer-array>
+    <integer-array name="flag_p108">
+        <item>@drawable/curacao</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p109">
+        <item>@drawable/laos</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p110">
+        <item>@drawable/latvia</item>
+    </integer-array>
+    <integer-array name="flag_p111">
+        <item>@drawable/lesotho</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p112">
+        <item>@drawable/liberia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p113">
+        <item>@drawable/lebanon</item>
+    </integer-array>
+    <integer-array name="flag_p114">
+        <item>@drawable/libya</item>
+    </integer-array>
+    <integer-array name="flag_p115">
+        <item>@drawable/lithuania</item>
+    </integer-array>
+    <integer-array name="flag_p116">
+        <item>@drawable/liechtenstein</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p117">
+        <item>@drawable/luxembourg</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p118">
+        <item>@drawable/mauritius</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p119">
+        <item>@drawable/mauritania</item>
+    </integer-array>
+    <integer-array name="flag_p120">
+        <item>@drawable/madagascar</item>
+    </integer-array>
+    <integer-array name="flag_p121">
+        <item>@drawable/mayotte</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p122">
+        <item>@drawable/macao</item>
+    </integer-array>
+    <integer-array name="flag_p123">
+        <item>@drawable/macedonia</item>
+    </integer-array>
+    <integer-array name="flag_p124">
+        <item>@drawable/malawi</item>
+    </integer-array>
+    <integer-array name="flag_p125">
+        <item>@drawable/malaysia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p126">
+        <item>@drawable/mali</item>
+    </integer-array>
+    <integer-array name="flag_p127">
+        <item>@drawable/maldives</item>
+    </integer-array>
+    <integer-array name="flag_p128">
+        <item>@drawable/malta</item>
+    </integer-array>
+    <integer-array name="flag_p129">
+        <item>@drawable/morocco</item>
+    </integer-array>
+    <integer-array name="flag_p130">
+        <item>@drawable/martinique</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p131">
+        <item>@drawable/marshall_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p132">
+        <item>@drawable/mexico</item>
+    </integer-array>
+    <integer-array name="flag_p133">
+        <item>@drawable/micronesia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p134">
+        <item>@drawable/mozambique</item>
+    </integer-array>
+    <integer-array name="flag_p135">
+        <item>@drawable/moldova</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p136">
+        <item>@drawable/monaco</item>
+    </integer-array>
+    <integer-array name="flag_p137">
+        <item>@drawable/mongolia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p138">
+        <item>@drawable/montserrat</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p139">
+        <item>@drawable/myanmar</item>
+    </integer-array>
+    <integer-array name="flag_p140">
+        <item>@drawable/namibia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p141">
+        <item>@drawable/nauru</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p142">
+        <item>@drawable/nepal</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p143">
+        <item>@drawable/niger</item>
+    </integer-array>
+    <integer-array name="flag_p144">
+        <item>@drawable/nigeria</item>
+    </integer-array>
+    <integer-array name="flag_p145">
+        <item>@drawable/netherlands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p146">
+        <item>@drawable/nicaragua</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p147">
+        <item>@drawable/niue</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p148">
+        <item>@drawable/new_zealand</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p149">
+        <item>@drawable/new_caledonia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p150">
+        <item>@drawable/norway</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p151">
+        <item>@drawable/norfolk_island</item>
+    </integer-array>
+    <integer-array name="flag_p152">
+        <item>@drawable/united_arab_emirates</item>
+    </integer-array>
+    <integer-array name="flag_p153">
+        <item>@drawable/oman</item>
+    </integer-array>
+    <integer-array name="flag_p154">
+        <item>@drawable/isle_of_man</item>
+    </integer-array>
+    <integer-array name="flag_p155">
+        <item>@drawable/christmas_island</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p156">
+        <item>@drawable/heard_island_and_mcdonald_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p157">
+        <item>@drawable/cook_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p158">
+        <item>@drawable/pitcairn_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p159">
+        <item>@drawable/saint_helena</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p160">
+        <item>@drawable/pakistan</item>
+    </integer-array>
+    <integer-array name="flag_p161">
+        <item>@drawable/palau</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p162">
+        <item>@drawable/palestinian_territory</item>
+    </integer-array>
+    <integer-array name="flag_p163">
+        <item>@drawable/panama</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p164">
+        <item>@drawable/papua_new_guinea</item>
+    </integer-array>
+    <integer-array name="flag_p165">
+        <item>@drawable/paraguay</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p166">
+        <item>@drawable/peru</item>
+    </integer-array>
+    <integer-array name="flag_p167">
+        <item>@drawable/poland</item>
+    </integer-array>
+    <integer-array name="flag_p168">
+        <item>@drawable/portugal</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p169">
+        <item>@drawable/puerto_rico</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p170">
+        <item>@drawable/iraq</item>
+    </integer-array>
+    <integer-array name="flag_p171">
+        <item>@drawable/republic_of_the_congo</item>
+    </integer-array>
+    <integer-array name="flag_p172">
+        <item>@drawable/reunion</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p173">
+        <item>@drawable/russia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p174">
+        <item>@drawable/rwanda</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p175">
+        <item>@drawable/romania</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p176">
+        <item>@drawable/el_salvador</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p177">
+        <item>@drawable/samoa</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p178">
+        <item>@drawable/san_marino</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p179">
+        <item>@drawable/sao_tome_and_principe</item>
+    </integer-array>
+    <integer-array name="flag_p180">
+        <item>@drawable/saudi_arabia</item>
+    </integer-array>
+    <integer-array name="flag_p181">
+        <item>@drawable/swaziland</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p182">
+        <item>@drawable/korea_north</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p183">
+        <item>@drawable/northern_mariana_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p184">
+        <item>@drawable/seychelles</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p185">
+        <item>@drawable/saint_barthelemy</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p186">
+        <item>@drawable/saint_martin</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p187">
+        <item>@drawable/saint_pierre_and_miquelon</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p188">
+        <item>@drawable/senegal</item>
+    </integer-array>
+    <integer-array name="flag_p189">
+        <item>@drawable/saint_vincent_and_the_grenadines</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p190">
+        <item>@drawable/saint_kitts_and_nevis</item>
+    </integer-array>
+    <integer-array name="flag_p191">
+        <item>@drawable/saint_lucia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p192">
+        <item>@drawable/serbia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p193">
+        <item>@drawable/singapore</item>
+    </integer-array>
+    <integer-array name="flag_p194">
+        <item>@drawable/sint_maarten</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p195">
+        <item>@drawable/syria</item>
+    </integer-array>
+    <integer-array name="flag_p196">
+        <item>@drawable/slovakia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p197">
+        <item>@drawable/slovenia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p198">
+        <item>@drawable/solomon_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p199">
+        <item>@drawable/somalia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p200">
+        <item>@drawable/ussr</item>
+    </integer-array>
+    <integer-array name="flag_p201">
+        <item>@drawable/sudan</item>
+    </integer-array>
+    <integer-array name="flag_p202">
+        <item>@drawable/suriname</item>
+    </integer-array>
+    <integer-array name="flag_p203">
+        <item>@drawable/united_states_of_america</item>
+    </integer-array>
+    <integer-array name="flag_p204">
+        <item>@drawable/sierra_leone</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p205">
+        <item>@drawable/tajikistan</item>
+    </integer-array>
+    <integer-array name="flag_p206">
+        <item>@drawable/thailand</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p207">
+        <item>@drawable/republic_of_china</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p208">
+        <item>@drawable/tanzania</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p209">
+        <item>@drawable/turks_and_caicos_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p210">
+        <item>@drawable/togo</item>
+    </integer-array>
+    <integer-array name="flag_p211">
+        <item>@drawable/tokelau</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p212">
+        <item>@drawable/tonga</item>
+    </integer-array>
+    <integer-array name="flag_p213">
+        <item>@drawable/trinidad_and_tobago</item>
+    </integer-array>
+    <integer-array name="flag_p214">
+        <item>@drawable/tuvalu</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p215">
+        <item>@drawable/tunisia</item>
+    </integer-array>
+    <integer-array name="flag_p216">
+        <item>@drawable/turkmenistan</item>
+    </integer-array>
+    <integer-array name="flag_p217">
+        <item>@drawable/turkey</item>
+    </integer-array>
+    <integer-array name="flag_p218">
+        <item>@drawable/uganda</item>
+    </integer-array>
+    <integer-array name="flag_p219">
+        <item>@drawable/uzbekistan</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p220">
+        <item>@drawable/ukraine</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p221">
+        <item>@drawable/wallis_and_futuna</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p222">
+        <item>@drawable/uruguay</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p223">
+        <item>@drawable/wales</item>
+    </integer-array>
+    <integer-array name="flag_p224">
+        <item>@drawable/faroe_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p225">
+        <item>@drawable/fiji</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p226">
+        <item>@drawable/philippines</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p227">
+        <item>@drawable/finland</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p228">
+        <item>@drawable/falkland_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p229">
+        <item>@drawable/france</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p230">
+        <item>@drawable/french_polynesia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p231">
+        <item>@drawable/french_southern_territories</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p232">
+        <item>@drawable/croatia</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p233">
+        <item>@drawable/central_african_republic</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p234">
+        <item>@drawable/chad</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p235">
+        <item>@drawable/montenegro</item>
+    </integer-array>
+    <integer-array name="flag_p236">
+        <item>@drawable/czech_republic</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p237">
+        <item>@drawable/chile</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p238">
+        <item>@drawable/switzerland</item>
+    </integer-array>
+    <integer-array name="flag_p239">
+        <item>@drawable/sweden</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p240">
+        <item>@drawable/scotland</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p241">
+        <item>@drawable/svalbard_and_jan_mayen</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p242">
+        <item>@drawable/sri_lanka</item>
+    </integer-array>
+    <integer-array name="flag_p243">
+        <item>@drawable/ecuador</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p244">
+        <item>@drawable/equatorial_guinea</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p245">
+        <item>@drawable/eritrea</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p246">
+        <item>@drawable/estonia</item>
+    </integer-array>
+    <integer-array name="flag_p247">
+        <item>@drawable/ethiopia</item>
+    </integer-array>
+    <integer-array name="flag_p248">
+        <item>@drawable/south_africa</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p249">
+        <item>@drawable/south_georgia_and_the_south_sandwich_islands</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p250">
+        <item>@drawable/korea_south</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p251">
+        <item>@drawable/south_sudan</item>
+        <item>@drawable/ic_blue</item>
+    </integer-array>
+    <integer-array name="flag_p252">
+        <item>@drawable/jamaica</item>
+    </integer-array>
+    <integer-array name="flag_p253">
+        <item>@drawable/japan</item>
     </integer-array>
 </resources>
