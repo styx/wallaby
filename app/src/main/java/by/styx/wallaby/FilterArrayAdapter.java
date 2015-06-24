@@ -15,11 +15,13 @@ public class FilterArrayAdapter extends ArrayAdapter {
 
     private final Activity context;
     private final ArrayList<FilterItem> values;
+    private final MainActivityFragment fragment;
 
-    public FilterArrayAdapter(Activity context, ArrayList<FilterItem> values) {
+    public FilterArrayAdapter(Activity context, ArrayList<FilterItem> values, MainActivityFragment fragment) {
         super(context, R.layout.filter, values);
         this.context = context;
         this.values = values;
+        this.fragment = fragment;
     }
 
     static class ViewHolder {
@@ -29,7 +31,7 @@ public class FilterArrayAdapter extends ArrayAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, final ViewGroup parent) {
         ViewHolder holder;
 
         View rowView = convertView;
@@ -48,6 +50,7 @@ public class FilterArrayAdapter extends ArrayAdapter {
                     CheckBox cb = (CheckBox) v;
                     FilterItem filterItem = (FilterItem) cb.getTag();
                     filterItem.setSelected(cb.isChecked());
+                    fragment.doFilter();
                 }
             });
 

@@ -38,7 +38,7 @@ public class MainActivityFragment extends Fragment {
         loadResources();
 
         ListView mFilterList = (ListView) view.findViewById(R.id.filterList);
-        filterAdapter = new FilterArrayAdapter(getActivity(), filterItems);
+        filterAdapter = new FilterArrayAdapter(getActivity(), filterItems, MainActivityFragment.this);
         mFilterList.setAdapter(filterAdapter);
 
         mFilterList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -48,6 +48,7 @@ public class MainActivityFragment extends Fragment {
                 filterItem.setSelected(!filterItem.isSelected());
                 CheckBox checkBox = (CheckBox) view.findViewById(R.id.filterSelected);
                 checkBox.setChecked(filterItem.isSelected());
+                doFilter();
             }
         });
 
@@ -122,7 +123,7 @@ public class MainActivityFragment extends Fragment {
         flagImages.recycle();
     }
 
-    private void resetFilter() {
+    public void resetFilter() {
         for (FilterItem filterItem : filterItems) {
             filterItem.setSelected(false);
         }
@@ -131,7 +132,7 @@ public class MainActivityFragment extends Fragment {
         doFilter();
     }
 
-    private void doFilter() {
+    public void doFilter() {
         StringBuilder s = new StringBuilder();
         for (FilterItem filterItem : filterItems) {
             if (filterItem.isSelected()) {
@@ -141,4 +142,6 @@ public class MainActivityFragment extends Fragment {
 
         flagsAdapter.getFilter().filter(s);
     }
+
+
 }
