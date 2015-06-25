@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="filterNames">
-        <item>Star 5</item>
+        <item>Star 3, 4, 5</item>
         <item>Star 6, 7, 8</item>
+        <item>Crescent</item>
+        <item>Circle / Sun</item>
+        <item>Triangle</item>
+        <item>Animal / Bird / Human!</item>
+        <item>Other special objects. I.e. shield, weapon, tree </item>
+        <item>Any kind of cross</item>
+        <item>> 1 fat horizontal line</item>
+        <item>> 1 fat vertical line</item>
         <item>Any kind of blue</item>
         <item>Any kind of green</item>
         <item>Any kind of red</item>
@@ -14,6 +22,14 @@
     <array name="filterImages">
         <item>@drawable/ic_star5</item>
         <item>@drawable/ic_star678</item>
+        <item>@drawable/ic_crescent</item>
+        <item>@drawable/ic_circle</item>
+        <item>@drawable/ic_triangle</item>
+        <item>@drawable/ic_paw</item>
+        <item>@drawable/ic_special</item>
+        <item>@drawable/ic_cross</item>
+        <item>@drawable/ic_horiz_box</item>
+        <item>@drawable/ic_vert_box</item>
         <item>@drawable/ic_blue</item>
         <item>@drawable/ic_green</item>
         <item>@drawable/ic_red</item>
@@ -24,33 +40,50 @@
 
     <integer-array name="flag_p0">
         <item>@drawable/australia</item>
+
         <item>@drawable/ic_star678</item>
         <item>@drawable/ic_blue</item>
         <item>@drawable/ic_red</item>
     </integer-array>
+
     <integer-array name="flag_p1">
-        <item>@drawable/austria</item>
         <item>@drawable/ic_red</item>
         <item>@drawable/ic_white</item>
+        <item>@drawable/ic_horiz_box</item>
     </integer-array>
+
     <integer-array name="flag_p2">
-        <item>@drawable/azerbaijan</item>
         <item>@drawable/ic_red</item>
         <item>@drawable/ic_blue</item>
         <item>@drawable/ic_white</item>
         <item>@drawable/ic_green</item>
         <item>@drawable/ic_star678</item>
+        <item>@drawable/ic_crescent</item>
+        <item>@drawable/ic_horiz_box</item>
     </integer-array>
+
     <integer-array name="flag_p3">
-        <item>@drawable/aland_islands</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_cross</item>
+        <item>@drawable/ic_yellow</item>
     </integer-array>
+
     <integer-array name="flag_p4">
-        <item>@drawable/albania</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_black</item>
+        <item>@drawable/ic_paw</item>
     </integer-array>
+
     <integer-array name="flag_p5">
-        <item>@drawable/algeria</item>
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_star5</item>
+        <item>@drawable/ic_crescent</item>
+        <item>@drawable/ic_vert_box</item>
     </integer-array>
+
     <integer-array name="flag_p6">
         <item>@drawable/virgin_islands_us</item>
     </integer-array>
@@ -102,10 +135,14 @@
     <integer-array name="flag_p19">
         <item>@drawable/bangladesh</item>
     </integer-array>
+
     <integer-array name="flag_p20">
-        <item>@drawable/barbados</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_special</item>
+        <item>@drawable/ic_vert_box</item>
     </integer-array>
+
     <integer-array name="flag_p21">
         <item>@drawable/bahrain</item>
     </integer-array>
@@ -927,7 +964,10 @@
     <integer-array name="flag_p252">
         <item>@drawable/jamaica</item>
     </integer-array>
+
     <integer-array name="flag_p253">
-        <item>@drawable/japan</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_circle</item>
     </integer-array>
 </resources>

@@ -10,7 +10,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.Filter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -26,6 +28,7 @@ public class MainActivityFragment extends Fragment {
     private ArrayList<FlagItem> flagItems = new ArrayList<>();
     private FilterArrayAdapter filterAdapter;
     private FlagAdapter flagsAdapter;
+    private TextView flagsCount;
 
     public MainActivityFragment() {
     }
@@ -36,6 +39,8 @@ public class MainActivityFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
 
         loadResources();
+
+        flagsCount = (TextView) view.findViewById(R.id.flagsCount);
 
         ListView mFilterList = (ListView) view.findViewById(R.id.filterList);
         filterAdapter = new FilterArrayAdapter(getActivity(), filterItems, MainActivityFragment.this);
@@ -63,6 +68,8 @@ public class MainActivityFragment extends Fragment {
         ListView mFlagList = (ListView) view.findViewById(R.id.flagsList);
         flagsAdapter = new FlagAdapter(getActivity(), flagItems);
         mFlagList.setAdapter(flagsAdapter);
+
+        doFilter();
 
         return view;
     }
@@ -131,6 +138,10 @@ public class MainActivityFragment extends Fragment {
             }
         }
 
-        flagsAdapter.getFilter().filter(s);
+        flagsAdapter.getFilter().filter(s, new Filter.FilterListener() {
+            public void onFilterComplete(int count) {
+                flagsCount.setText(String.valueOf(count));
+            }
+        });
     }
 }
