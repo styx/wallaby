@@ -518,46 +518,100 @@
         <item>@drawable/ic_white</item>
     </integer-array>
     <integer-array name="flag_p62">
-        <item>@drawable/grenada</item>
+        <!--<item>@drawable/grenada</item>-->
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_star5</item>
+        <item>@drawable/ic_special</item>
+        <item>@drawable/ic_triangle</item>
+        <item>@drawable/ic_circle</item>
     </integer-array>
     <integer-array name="flag_p63">
-        <item>@drawable/greenland</item>
+        <!--<item>@drawable/greenland</item>-->
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_circle</item>
     </integer-array>
     <integer-array name="flag_p64">
         <item>@drawable/greece</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_cross</item>
+        <item>@drawable/ic_horiz_box</item>
     </integer-array>
     <integer-array name="flag_p65">
-        <item>@drawable/georgia</item>
+        <!--<item>@drawable/georgia</item>-->
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_cross</item>
     </integer-array>
     <integer-array name="flag_p66">
-        <item>@drawable/guam</item>
+        <!--<item>@drawable/guam</item>-->
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_special</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_green</item>
     </integer-array>
     <integer-array name="flag_p67">
-        <item>@drawable/denmark</item>
+        <!--<item>@drawable/denmark</item>-->
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_cross</item>
     </integer-array>
     <integer-array name="flag_p68">
         <item>@drawable/democratic_republic_of_the_congo</item>
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_star5</item>
     </integer-array>
     <integer-array name="flag_p69">
         <item>@drawable/jersey</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_special</item>
+        <item>@drawable/ic_cross</item>
     </integer-array>
     <integer-array name="flag_p70">
-        <item>@drawable/djibouti</item>
+        <!--<item>@drawable/djibouti</item>-->
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_star5</item>
+        <item>@drawable/ic_horiz_box</item>
+        <item>@drawable/ic_triangle</item>
     </integer-array>
     <integer-array name="flag_p71">
-        <item>@drawable/dominica</item>
+        <!--<item>@drawable/dominica</item>-->
+        <item>@drawable/ic_star5</item>
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_cross</item>
+        <item>@drawable/ic_circle</item>
+        <item>@drawable/ic_paw</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_black</item>
+        <item>@drawable/ic_blue</item>
     </integer-array>
     <integer-array name="flag_p72">
-        <item>@drawable/dominican_republic</item>
+        <!--<item>@drawable/dominican_republic</item>-->
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_red</item>
+        <item>@drawable/ic_white</item>
+        <item>@drawable/ic_green</item>
+        <item>@drawable/ic_special</item>
     </integer-array>
     <integer-array name="flag_p73">
-        <item>@drawable/european_union</item>
+        <!--<item>@drawable/european_union</item>-->
         <item>@drawable/ic_blue</item>
+        <item>@drawable/ic_yellow</item>
+        <item>@drawable/ic_star5</item>
+        <item>@drawable/ic_circle</item>
     </integer-array>
     <integer-array name="flag_p74">
         <item>@drawable/egypt</item>
