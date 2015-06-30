@@ -29,6 +29,7 @@ public class MainActivityFragment extends Fragment {
     private FilterArrayAdapter filterAdapter;
     private FlagAdapter flagsAdapter;
     private TextView flagsCount;
+    private CheckBox cbExactMatch;
 
     public MainActivityFragment() {
     }
@@ -62,6 +63,13 @@ public class MainActivityFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 resetFilter();
+            }
+        });
+
+        cbExactMatch = (CheckBox) view.findViewById(R.id.cbExactMatch);
+        cbExactMatch.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                doFilter();
             }
         });
 
@@ -126,12 +134,11 @@ public class MainActivityFragment extends Fragment {
             filterItem.setSelected(false);
         }
         filterAdapter.notifyDataSetChanged();
-        flagsAdapter.notifyDataSetChanged();
         doFilter();
     }
 
     public void doFilter() {
-        StringBuilder s = new StringBuilder();
+        StringBuilder s = new StringBuilder(String.valueOf(cbExactMatch.isChecked()) + ";");
         for (FilterItem filterItem : filterItems) {
             if (filterItem.isSelected()) {
                 s.append(filterItem.getId()).append(";");

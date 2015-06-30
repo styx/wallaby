@@ -76,6 +76,16 @@
             android:layout_toRightOf="@+id/textView"
             android:layout_toEndOf="@+id/textView" />
 
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exact_match"
+            android:id="@+id/cbExactMatch"
+            android:layout_alignBaseline="@+id/resetFilter"
+            android:layout_alignBottom="@+id/resetFilter"
+            android:layout_toLeftOf="@+id/resetFilter"
+            android:layout_toStartOf="@+id/resetFilter"
+            android:paddingRight="12dip"/>
     </RelativeLayout>
 
 </RelativeLayout>

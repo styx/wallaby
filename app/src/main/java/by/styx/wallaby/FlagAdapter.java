@@ -72,12 +72,15 @@ public class FlagAdapter extends BaseAdapter implements Filterable {
     }
 
     private class FlagFilter extends Filter {
-        private final TextUtils.StringSplitter splitter = new TextUtils.SimpleStringSplitter(';');
+        private final TextUtils.SimpleStringSplitter splitter = new TextUtils.SimpleStringSplitter(';');
 
         @Override
         protected FilterResults performFiltering(CharSequence constraint) {
 
             splitter.setString(constraint.toString());
+
+            boolean exactMatch = Boolean.parseBoolean(splitter.next());
+
             List<Integer> selectedProps = new ArrayList<>();
             for (String s : splitter) {
                 selectedProps.add(Integer.valueOf(s));
@@ -94,7 +97,10 @@ public class FlagAdapter extends BaseAdapter implements Filterable {
             for (int i = 0; i < count; i++) {
                 filterableFlag = list.get(i);
 
-                if (filterableFlag.hasProps(selectedProps)) {
+                boolean valid = (!exactMatch && filterableFlag.hasProps(selectedProps)) ||
+                        (exactMatch && filterableFlag.hasExactProps(selectedProps));
+
+                if (valid) {
                     nList.add(filterableFlag);
                 }
             }

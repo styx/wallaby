@@ -27,4 +27,9 @@ public class FlagItem {
         tmp.removeAll(props);
         return tmp.size() == 0;
     }
+
+    public boolean hasExactProps(Collection<Integer> filterProps) {
+        Set<Integer> tmp = new HashSet<>(filterProps);
+        return tmp.equals(props);
+    }
 }

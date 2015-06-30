@@ -5,4 +5,5 @@
     <string name="doFilter">Filter</string>
     <string name="count">Flags count:</string>
     <string name="defaultFlagsCount">0</string>
+    <string name="exact_match">Exact match</string>
 </resources>
