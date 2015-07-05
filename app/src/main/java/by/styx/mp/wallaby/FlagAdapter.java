@@ -1,4 +1,4 @@
-package by.styx.wallaby;
+package by.styx.mp.wallaby;
 
 import android.content.Context;
 import android.text.TextUtils;

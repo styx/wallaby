@@ -1,4 +1,4 @@
-package by.styx.wallaby;
+package by.styx.mp.wallaby;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

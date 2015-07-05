@@ -1,4 +1,4 @@
-package by.styx.wallaby;
+package by.styx.mp.wallaby;
 
 import android.graphics.drawable.Drawable;
 

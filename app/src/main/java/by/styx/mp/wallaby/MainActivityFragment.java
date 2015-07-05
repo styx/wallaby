@@ -1,4 +1,4 @@
-package by.styx.wallaby;
+package by.styx.mp.wallaby;
 
 import android.content.res.Resources;
 import android.content.res.TypedArray;
