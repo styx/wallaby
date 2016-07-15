@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wallaby</string>
+    <string name="reset_btn">Сброс</string>
+    <string name="count">Кол-во:</string>
+    <string name="defaultFlagsCount" translatable="false">0</string>
+    <string name="exact_match">Точн. совп.</string>
+</resources>

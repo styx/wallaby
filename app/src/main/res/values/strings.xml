@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">Wallaby</string>
-    <string name="action_settings">Settings</string>
     <string name="reset_btn">Reset</string>
-    <string name="doFilter">Filter</string>
-    <string name="count">Flags count:</string>
-    <string name="defaultFlagsCount">0</string>
+    <string name="count">Count:</string>
+    <string name="defaultFlagsCount" translatable="false">0</string>
     <string name="exact_match">Exact match</string>
 </resources>
