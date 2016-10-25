@@ -51,17 +51,8 @@
             android:layout_gravity="bottom"
             android:layout_below="@+id/resetFilter"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/count"
-            android:id="@+id/textView"
-            android:layout_alignBaseline="@+id/cbExactMatch"
-            android:layout_alignLeft="@+id/filterList"
-            android:layout_alignStart="@+id/filterList" />
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dip" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,7 +62,8 @@
             android:id="@+id/flagsCount"
             android:paddingLeft="8dip"
             android:paddingStart="8dip"
-            android:layout_alignBaseline="@+id/cbExactMatch"
+            android:layout_alignBaseline="@+id/textView"
+            android:layout_alignBottom="@+id/textView"
             android:layout_toRightOf="@+id/textView"
             android:layout_toEndOf="@+id/textView" />
 
@@ -80,11 +72,23 @@
             android:layout_height="wrap_content"
             android:text="@string/exact_match"
             android:id="@+id/cbExactMatch"
-            android:layout_alignBaseline="@+id/resetFilter"
-            android:layout_alignBottom="@+id/resetFilter"
-            android:layout_toLeftOf="@+id/resetFilter"
-            android:layout_toStartOf="@+id/resetFilter"
-            android:paddingRight="12dip"/>
+            android:paddingRight="12dip"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/count"
+            android:id="@+id/textView"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_below="@+id/cbExactMatch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp" />
     </RelativeLayout>
 
 </RelativeLayout>
